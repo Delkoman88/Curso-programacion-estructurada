@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1580966928 source:d:\google drive\cursos platzi\carreras\machine learning\programacion estructurada\miprimeravariable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
