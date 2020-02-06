@@ -2,37 +2,32 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+//Primer reto de la clase
 int main()
 {
-    int integerA;
-    float floatA;
-    double doubleA;
-    char letterA;
+    //Se declaran las 3 variables
+    int X;
+    int Y;
+    int Z;
 
-    printf("Ingresa el valor del entero A: ");
+    //Ingresar datos
+    printf("Ingresa el valor de X: ");
 
-    scanf("%i", &integerA);
+    scanf("%i", &X);
 
-    printf("Ingresa el valor del float A: ");
+    printf("Ingresa el valor de Y: ");
 
-    scanf("%f", &floatA);
+    scanf("%i", &Y);
 
-    printf("Ingresa el valor del double A: ");
+    //Intercambio de datos con ayuda de Z
+    Z = X;
+    X = Y;
+    Y = Z;
 
-    scanf("%f", &doubleA);
+    //Se muestran los valores de X y Y invertidos
+    printf("El valor de X  es: %i \n", X);
 
-    printf("Ingresa el valor del caracter A: ");
-
-    scanf(" %c", &letterA);
-
-    //En la siguiente linea estamos imprimiendo mi variable integerA
-    printf("El valor del numero entero A es: %i \n", integerA);
-
-    printf("El valor del flotante A es: %f \n", floatA);
-
-    printf("El valor del double A es: %f \n", doubleA);
-
-    printf("El valor del caracter A es: %c \n", letterA);
+    printf("El valor de Y es: %i \n", Y);
 
     return 0;
 }
